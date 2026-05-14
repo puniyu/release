@@ -4386,7 +4386,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "dc897dd8d9e8bd1ed8cdad82b5966c3e0ecae09fb1907d58efaa013543185d0a"
 
 [[package]]
-name = "release-plz"
+name = "release"
 version = "0.3.158"
 dependencies = [
  "anyhow",
@@ -4406,7 +4406,7 @@ dependencies = [
  "git_cmd",
  "pretty_assertions",
  "regex",
- "release_plz_core",
+ "release_core",
  "reqwest",
  "schemars",
  "secrecy 0.10.3",
@@ -4423,7 +4423,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "release_plz_core"
+name = "release_core"
 version = "0.36.14"
 dependencies = [
  "anyhow",

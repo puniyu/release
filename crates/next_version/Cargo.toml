@@ -4,12 +4,11 @@ version = "0.3.2"
 edition.workspace = true
 description = "Determine next semantic version based on conventional commits"
 license.workspace = true
-repository = "https://github.com/release-plz/release-plz/tree/main/crates/next_version"
+repository.workspace = true
+homepage.workspace = true
 keywords = ["semver", "semantic", "versioning", "conventional", "commits"]
 categories = ["development-tools", "parsing"]
 
-[lints]
-workspace = true
 
 [dependencies]
 regex.workspace = true

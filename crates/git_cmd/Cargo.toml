@@ -3,15 +3,13 @@ name = "git_cmd"
 version = "0.6.28"
 edition.workspace = true
 description = "Wrapper around git cli"
-repository = "https://github.com/release-plz/release-plz/tree/main/crates/git_cmd"
+repository.workspace = true
+homepage.workspace = true
 license.workspace = true
 keywords = ["git", "command", "cli", "wrapper", "shell"]
 categories = ["development-tools", "filesystem"]
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-[lints]
-workspace = true
 
 [features]
 test_fixture = []
