@@ -10,15 +10,15 @@ use tracing::info;
 
 use crate::config::Config;
 
-const DEFAULT_CONFIG_PATHS: &[&str] = &["release-plz.toml", ".release-plz.toml"];
+const DEFAULT_CONFIG_PATHS: &[&str] = &["release.toml", ".release.toml"];
 
 /// A clap [`Args`] struct that specifies the path to the release-plz config file.
 #[derive(Debug, Default, Args)]
 pub struct ConfigPath {
     /// Path to the release-plz config file.
     ///
-    /// If not specified, the following paths are checked in order: `./release-plz.toml`,
-    /// `./.release-plz.toml`
+    /// If not specified, the following paths are checked in order: `./release.toml`,
+    /// `./.release.toml`
     ///
     /// If a config file is not found, the default configuration is used.
     #[arg(long = "config", value_name = "PATH")]

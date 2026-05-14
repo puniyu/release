@@ -52,7 +52,7 @@ async fn release_plz_opens_pr_with_default_config() {
 </p></details>
 
 ---
-This PR was generated with [release-plz](https://github.com/release-plz/release-plz/).",
+This PR was generated with [release-plz](https://github.com/puniyu/release/).",
         )
         .trim()
     );
@@ -114,7 +114,7 @@ async fn release_plz_opens_pr_without_breaking_changes() {
 </p></details>
 
 ---
-This PR was generated with [release-plz](https://github.com/release-plz/release-plz/).",
+This PR was generated with [release-plz](https://github.com/puniyu/release/).",
         )
         .trim()
     );
@@ -204,7 +204,7 @@ async fn release_plz_can_do_backport_prs() {
 </p></details>
 
 ---
-This PR was generated with [release-plz](https://github.com/release-plz/release-plz/).",
+This PR was generated with [release-plz](https://github.com/puniyu/release/).",
         )
         .trim()
     );
@@ -299,7 +299,7 @@ Failed in:
 </p></details>
 
 ---
-This PR was generated with [release-plz](https://github.com/release-plz/release-plz/).",
+This PR was generated with [release-plz](https://github.com/puniyu/release/).",
         )
         .trim()
     );
@@ -392,7 +392,7 @@ async fn release_plz_updates_binary_when_library_changes() {
 </p></details>
 
 ---
-This PR was generated with [release-plz](https://github.com/release-plz/release-plz/).",
+This PR was generated with [release-plz](https://github.com/puniyu/release/).",
         )
         .trim()
     );
@@ -470,7 +470,7 @@ async fn release_plz_opens_pr_with_two_packages_and_default_config() {
 </p></details>
 
 ---
-This PR was generated with [release-plz](https://github.com/release-plz/release-plz/).",
+This PR was generated with [release-plz](https://github.com/puniyu/release/).",
         )
         .trim()
     );
@@ -804,7 +804,7 @@ async fn release_plz_detects_cargo_lock_updates_from_registry() {
 </p></details>
 
 ---
-This PR was generated with [release-plz](https://github.com/release-plz/release-plz/).",
+This PR was generated with [release-plz](https://github.com/puniyu/release/).",
         )
         .trim()
     );
@@ -1057,7 +1057,7 @@ Failed in:
 </p></details>
 
 ---
-This PR was generated with [release-plz](https://github.com/release-plz/release-plz/).",
+This PR was generated with [release-plz](https://github.com/puniyu/release/).",
     )
     .trim()
     .to_string();
@@ -1229,7 +1229,7 @@ Failed in:
 </p></details>
 
 ---
-This PR was generated with [release-plz](https://github.com/release-plz/release-plz/).",
+This PR was generated with [release-plz](https://github.com/puniyu/release/).",
     )
     .trim()
     .to_string();
@@ -1504,7 +1504,7 @@ async fn release_plz_updates_binary_when_library_changes_commit_regex() {
 </p></details>
 
 ---
-This PR was generated with [release-plz](https://github.com/release-plz/release-plz/).",
+This PR was generated with [release-plz](https://github.com/puniyu/release/).",
         )
         .trim()
     );
@@ -1591,7 +1591,7 @@ async fn release_plz_updates_changelog_when_version_already_bumped() {
 </p></details>
 
 ---
-This PR was generated with [release-plz](https://github.com/release-plz/release-plz/).",
+This PR was generated with [release-plz](https://github.com/puniyu/release/).",
         )
         .trim()
     );

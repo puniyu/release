@@ -15,7 +15,7 @@ pub async fn check_update() -> anyhow::Result<()> {
         println!("Your release-plz version ({CURRENT_VERSION}) is up to date");
     } else {
         println!(
-            "Your release-plz version is {CURRENT_VERSION}. A newer version ({latest_version}) is available at https://github.com/release-plz/release-plz"
+            "Your release-plz version is {CURRENT_VERSION}. A newer version ({latest_version}) is available at https://github.com/puniyu/release"
         );
     }
     Ok(())

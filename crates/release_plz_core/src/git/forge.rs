@@ -745,7 +745,7 @@ impl GitClient {
                         ))
                     }
                     Some(StatusCode::UNPROCESSABLE_ENTITY) => {
-                        err.context("Please open a GitHub issue: https://github.com/release-plz/release-plz/issues")
+                        err.context("Please open a GitHub issue: https://github.com/puniyu/release/issues")
                     }
                     _ => {
                         err.context("HTTP response contained no status code when creating label")

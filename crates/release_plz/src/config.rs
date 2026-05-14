@@ -574,7 +574,7 @@ mod tests {
         dependencies_update = false
         allow_dirty = false
         changelog_config = "../git-cliff.toml"
-        repo_url = "https://github.com/release-plz/release-plz"
+        repo_url = "https://github.com/puniyu/release"
         git_release_enable = true
         git_release_type = "prod"
         git_release_draft = false
@@ -596,7 +596,7 @@ mod tests {
                 changelog_config: Some("../git-cliff.toml".into()),
                 allow_dirty: Some(false),
                 repo_url: Some(
-                    "https://github.com/release-plz/release-plz"
+                    "https://github.com/puniyu/release"
                         .parse()
                         .unwrap(),
                 ),
@@ -719,7 +719,7 @@ mod tests {
                 changelog_config: Some("../git-cliff.toml".into()),
                 allow_dirty: None,
                 repo_url: Some(
-                    "https://github.com/release-plz/release-plz"
+                    "https://github.com/puniyu/release"
                         .parse()
                         .unwrap(),
                 ),
@@ -775,7 +775,7 @@ mod tests {
             pr_labels = ["label1"]
             pr_branch_prefix = "f-"
             publish_timeout = "10m"
-            repo_url = "https://github.com/release-plz/release-plz"
+            repo_url = "https://github.com/puniyu/release"
             release_commits = "^feat:"
             max_analyze_commits = 1000
 

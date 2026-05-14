@@ -108,7 +108,7 @@ fn new_url(git_host_url: &str) -> anyhow::Result<RepoUrl> {
 mod tests {
     use super::RepoUrl;
 
-    const GITHUB_REPO_URL: &str = "https://github.com/release-plz/release-plz";
+    const GITHUB_REPO_URL: &str = "https://github.com/puniyu/release";
 
     #[test]
     fn gh_release_link_works_for_first_release() {

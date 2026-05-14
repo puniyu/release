@@ -40,7 +40,7 @@ pub const DEFAULT_PR_BODY_TEMPLATE: &str = r#"
 </p></details>
 {% endif %}
 ---
-This PR was generated with [release-plz](https://github.com/release-plz/release-plz/)."#;
+This PR was generated with [release-plz](https://github.com/puniyu/release/)."#;
 
 #[derive(Debug)]
 pub struct Pr {

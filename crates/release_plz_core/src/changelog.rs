@@ -44,7 +44,7 @@ pub struct Remote {
     /// Name of the repo. E.g. `release-plz`.
     pub repo: String,
     /// HTTP URL to the repository.
-    /// E.g. `https://github.com/release-plz/release-plz`.
+    /// E.g. `https://github.com/puniyu/release`.
     pub link: String,
     /// List of contributors.
     #[serde(skip_serializing_if = "Vec::is_empty")]
@@ -552,7 +552,7 @@ mod tests {
         )];
         let changelog = ChangelogBuilder::new(commits, "1.1.1", "my_pkg")
             .with_release_date(NaiveDate::from_ymd_opt(2015, 5, 15).unwrap())
-            .with_release_link("https://github.com/release-plz/release-plz/compare/release-plz-v0.2.24...release-plz-v0.2.25")
+            .with_release_link("https://github.com/puniyu/release/compare/release-plz-v0.2.24...release-plz-v0.2.25")
             .build();
 
         expect_test::expect![[r"
@@ -565,7 +565,7 @@ mod tests {
 
             ## [Unreleased]
 
-            ## [1.1.1](https://github.com/release-plz/release-plz/compare/release-plz-v0.2.24...release-plz-v0.2.25) - 2015-05-15
+            ## [1.1.1](https://github.com/puniyu/release/compare/release-plz-v0.2.24...release-plz-v0.2.25) - 2015-05-15
 
             ### Fixed
 

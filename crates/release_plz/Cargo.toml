@@ -3,15 +3,12 @@ name = "release-plz"
 version = "0.3.158"
 edition.workspace = true
 description = "Update version and changelog based on semantic versioning and conventional commits"
-repository = "https://github.com/release-plz/release-plz"
+repository = "https://github.com/puniyu/release"
 homepage = "https://release-plz.dev/"
 license.workspace = true
 readme = "../../README.md"
 keywords = ["release", "please", "semver", "conventional", "commits"]
 categories = ["command-line-utilities", "development-tools"]
-
-[lints]
-workspace = true
 
 [features]
 default = ["docker-tests", "all-static"]
@@ -21,7 +18,7 @@ all-static = ["release_plz_core/all-static"]
 
 [dependencies]
 git_cmd = { path = "../git_cmd", version = "0.6.28" }
-release_plz_core = { path = "../release_plz_core", version = "0.36.14", default-features = false }
+release_plz_core = { path = "../release_plz_core", version = "0.36.15", default-features = false }
 cargo_utils = { path = "../cargo_utils", version = "0.1" }
 
 anyhow.workspace = true

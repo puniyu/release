@@ -162,7 +162,7 @@ mod tests {
             dependencies_update = false
             changelog_config = "../git-cliff.toml"
             allow_dirty = false
-            repo_url = "https://github.com/release-plz/release-plz"
+            repo_url = "https://github.com/puniyu/release"
             publish_allow_dirty = true
             git_release_enable = true
             git_release_type = "prod"

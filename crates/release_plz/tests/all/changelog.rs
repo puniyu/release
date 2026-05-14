@@ -155,7 +155,7 @@ owner: {username}, repo: {package}, link: https://localhost/{username}/{package}
 </p></details>
 
 ---
-This PR was generated with [release-plz](https://github.com/release-plz/release-plz/).",
+This PR was generated with [release-plz](https://github.com/puniyu/release/).",
     );
     assert_eq!(
         open_pr.body.as_ref().unwrap().trim(),

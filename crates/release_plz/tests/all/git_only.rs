@@ -345,7 +345,7 @@ git_tag_name = "{{ package }}-v{{ version }}"
 </p></details>
 
 ---
-This PR was generated with [release-plz](https://github.com/release-plz/release-plz/)."
+This PR was generated with [release-plz](https://github.com/puniyu/release/)."
         )
         .trim(),
         pr_body.trim()
@@ -419,7 +419,7 @@ git_tag_name = "api-v{{ version }}"
 </p></details>
 
 ---
-This PR was generated with [release-plz](https://github.com/release-plz/release-plz/)."
+This PR was generated with [release-plz](https://github.com/puniyu/release/)."
         )
         .trim(),
         pr_body.trim()
@@ -631,7 +631,7 @@ git_tag_name = "{{ package }}-v{{ version }}"
 </p></details>
 
 ---
-This PR was generated with [release-plz](https://github.com/release-plz/release-plz/)."
+This PR was generated with [release-plz](https://github.com/puniyu/release/)."
         )
         .trim(),
         pr_body.trim()
@@ -826,7 +826,7 @@ publish = false
     assert!(packages.is_empty());
 }
 
-/// Test for <https://github.com/release-plz/release-plz/issues/2594>
+/// Test for <https://github.com/puniyu/release/issues/2594>
 /// In `git_only` mode, release-plz should NOT check the cargo registry for existing packages.
 /// This test verifies that a package with a name that exists on the cargo registry
 /// still gets tagged in `git_only` mode, because the registry is not checked.
@@ -983,7 +983,7 @@ publish = false
 </p></details>
 
 ---
-This PR was generated with [release-plz](https://github.com/release-plz/release-plz/)."
+This PR was generated with [release-plz](https://github.com/puniyu/release/)."
         )
         .trim(),
         pr_body.trim()
