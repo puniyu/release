@@ -17,7 +17,7 @@ docker-tests = []
 all-static = ["release_core/all-static"]
 
 [dependencies]
-git_cmd = { path = "../git_cmd", version = "0.6.28" }
+git_cmd = { path = "../git_cmd", version = "0.6.29" }
 release_core = { path = "../release_core", version = "0.36.14", default-features = false }
 cargo_utils = { path = "../cargo_utils", version = "0.1" }
 
