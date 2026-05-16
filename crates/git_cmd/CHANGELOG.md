@@ -6,6 +6,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+# 变更日志
+
+## [0.6.29](https://github.com/puniyu/release/compare/git_cmd-v0.6.28...git_cmd-v0.6.29)
+
+### 🐛 Bug 修复
+
+
+- Fix： config path - ([eb94ccd](https://github.com/puniyu/release/commit/eb94ccd270bdcf004fac12760fa7c27c82dffd44))
+
+
+
 
 ## [0.6.28](https://github.com/puniyu/release/compare/git_cmd-v0.6.27...git_cmd-v0.6.28) - 2026-02-16
 
