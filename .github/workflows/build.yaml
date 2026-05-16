@@ -36,7 +36,8 @@ jobs:
         with:
           command: c
           files: |
-            ./target/${{ matrix.platform.target }}/release/${{ env.APP_NAME }}.exe
+            ${{ env.APP_NAME }}.exe
+          cwd: target/${{ matrix.platform.target }}/release
           outPath: ${{ env.APP_NAME }}-${{ matrix.platform.target }}.tar.gz
 
       - name: 上传构建产物
@@ -78,7 +79,8 @@ jobs:
         with:
           command: c
           files: |
-            ./target/${{ matrix.platform.target }}/release/${{ env.APP_NAME }}
+            ${{ env.APP_NAME }}
+          cwd: target/${{ matrix.platform.target }}/release
           outPath: ${{ env.APP_NAME }}-${{ matrix.platform.target }}.tar.gz
 
       - name: 上传构建产物
@@ -124,7 +126,8 @@ jobs:
         with:
           command: c
           files: |
-            ./target/${{ matrix.platform.target }}/release/${{ env.APP_NAME }}
+            ${{ env.APP_NAME }}
+          cwd: target/${{ matrix.platform.target }}/release
           outPath: ${{ env.APP_NAME }}-${{ matrix.platform.target }}.tar.gz
 
       - name: 上传构建产物
