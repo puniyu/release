@@ -15,8 +15,8 @@ all-static = ["cargo/vendored-libgit2", "cargo/all-static"]
 
 [dependencies]
 base64.workspace = true
-cargo_utils = { path = "../cargo_utils", version = "0.1.78" }
-git_cmd = { path = "../git_cmd", version = "0.6.28" }
+cargo_utils = { path = "../cargo_utils", version = "0.1.79" }
+git_cmd = { path = "../git_cmd", version = "0.6.29" }
 next_version = { path = "../next_version", version = "0.3" }
 
 anyhow.workspace = true
