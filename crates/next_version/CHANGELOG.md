@@ -6,6 +6,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+# 变更日志
+
+## [0.3.3](https://github.com/puniyu/release/compare/next_version-v0.3.2...next_version-v0.3.3)
+
+### 🐛 Bug 修复
+
+
+- Fix： config path - ([eb94ccd](https://github.com/puniyu/release/commit/eb94ccd270bdcf004fac12760fa7c27c82dffd44))
+
+
+
 
 ## [0.3.2](https://github.com/puniyu/release/compare/next_version-v0.3.1...next_version-v0.3.2) - 2026-05-10
 
