@@ -11,10 +11,10 @@ homepage = "https://github.com/puniyu/release"
 [workspace.dependencies]
 anyhow = "1.0.99"
 assert_cmd = "2.0.17"
-base64 = "0.22.1"
+base64 = "0.23.0"
 camino = "1.1.12"
 cargo_metadata = "0.23.0"
-cargo = { version = "0.96.0" }
+cargo = { version = "0.99.0" }
 chrono = { version = "0.4.42", default-features = false }
 clap = "4.5.47"
 clap_complete = "4.5.57"
@@ -29,7 +29,7 @@ git-url-parse = "0.6.0"
 h2 = "0.4"
 http = "1.3.1"
 ignore = "0.4.23"
-itertools = "0.14.0"
+itertools = "0.15.0"
 parse-changelog = { version = "0.6.13", default-features = false }
 pretty_assertions = "1.4.1"
 rayon = "1.11.0"
