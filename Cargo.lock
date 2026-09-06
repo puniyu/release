@@ -1078,9 +1078,9 @@ dependencies = [
 
 [[package]]
 name = "dirs"
-version = "6.0.0"
+version = "7.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c3e8aa94d75141228480295a7d0e7feb620b1a5ad9f12bc40be62411e38cce4e"
+checksum = "8d57d423b3c82e89b9a24ca3091fee61f456a26edbd28d26c65906f4bc1dcd8f"
 dependencies = [
  "dirs-sys",
 ]
@@ -1566,7 +1566,7 @@ dependencies = [
  "serde",
  "serde_json",
  "serde_regex",
- "tera",
+ "tera 1.20.1",
  "thiserror 2.0.18",
  "time",
  "toml 0.9.12+spec-1.1.0",
@@ -4458,7 +4458,7 @@ dependencies = [
  "serde_json",
  "strip-ansi-escapes",
  "tempfile",
- "tera",
+ "tera 2.3.0",
  "test_logs",
  "tokio",
  "toml 1.1.2+spec-1.1.0",
@@ -5322,6 +5322,15 @@ dependencies = [
  "serde_json",
  "slug",
  "unicode-segmentation",
+]
+
+[[package]]
+name = "tera"
+version = "2.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "52fca06a22977165c6821c26e2bf0387cd7e0822107a6854d5fbb787307c4194"
+dependencies = [
+ "serde",
 ]
 
 [[package]]
