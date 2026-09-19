@@ -8,6 +8,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 # 变更日志
 
+## [0.6.30](https://github.com/puniyu/release/compare/git_cmd-v0.6.29...git_cmd-v0.6.30)
+
+### 🐛 Bug 修复
+
+
+- Fix： config path - ([eb94ccd](https://github.com/puniyu/release/commit/eb94ccd270bdcf004fac12760fa7c27c82dffd44))
+
+
+
+### ⚙️ 杂项
+
+
+- Init - ([c4e09a0](https://github.com/puniyu/release/commit/c4e09a0214a203114f095d65c39d351d3beeb99e))
+
+
+
+# 变更日志
+
 ## [0.6.29](https://github.com/puniyu/release/compare/git_cmd-v0.6.28...git_cmd-v0.6.29)
 
 ### 🐛 Bug 修复
