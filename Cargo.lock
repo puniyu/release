@@ -590,7 +590,7 @@ dependencies = [
 
 [[package]]
 name = "cargo_utils"
-version = "0.1.79"
+version = "0.1.80"
 dependencies = [
  "anyhow",
  "cargo_metadata",
@@ -1637,7 +1637,7 @@ dependencies = [
 
 [[package]]
 name = "git_cmd"
-version = "0.6.29"
+version = "0.6.30"
 dependencies = [
  "anyhow",
  "camino",
@@ -4387,7 +4387,7 @@ checksum = "dc897dd8d9e8bd1ed8cdad82b5966c3e0ecae09fb1907d58efaa013543185d0a"
 
 [[package]]
 name = "release"
-version = "0.3.159"
+version = "0.3.160"
 dependencies = [
  "anyhow",
  "assert_cmd",
@@ -5342,7 +5342,7 @@ checksum = "8f50febec83f5ee1df3015341d8bd429f2d1cc62bcba7ea2076759d315084683"
 
 [[package]]
 name = "test_logs"
-version = "0.1.34"
+version = "0.1.35"
 dependencies = [
  "tracing",
  "tracing-log",
