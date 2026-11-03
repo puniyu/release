@@ -35,7 +35,7 @@ jobs:
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
 
       - name: 设置 rust
-        uses: puniyu/setup-rust@d770975898c11cceab303c7c50aac90603a43d13 # main
+        uses: puniyu/setup-rust@8257508392c7e6d0f3c66345983df604cd572181 # main
         with:
           target: ${{ matrix.platform.target }}
           cache: true
