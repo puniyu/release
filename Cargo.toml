@@ -18,7 +18,7 @@ cargo = { version = "0.96.0" }
 chrono = { version = "0.4.42", default-features = false }
 clap = "4.5.47"
 clap_complete = "4.5.57"
-dirs = "6.0.0"
+dirs = "7.0.0"
 dunce = "1.0.5"
 expect-test = "1.5.1"
 fake = "5.0.0"
@@ -45,7 +45,7 @@ serde = "1.0.219"
 serde_json = "1.0.143"
 strip-ansi-escapes = "0.2.1"
 tempfile = "3.22.0"
-tera = "1.20.0"
+tera = "2.0.0"
 tokio = "1.47.1"
 toml = { version = "1.0.0" }
 toml_edit = { version = "0.25.0" }
